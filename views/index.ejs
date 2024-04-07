@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>
+        Welcome 
+        <% if(locals){%>
+            <%=person.name %> 
+            <%=person.age %>
+        <%}%>
+    </h2>
+
+    <div class="container">
+        <form action="/submit" method="post">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="text" name="age"></td>
+                    <td><button>show</button></td>
+                </tr>
+                
+            </table>
+        </form>
+    </div>
+</body>
+</html>
