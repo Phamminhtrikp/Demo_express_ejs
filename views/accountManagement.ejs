@@ -27,7 +27,7 @@
                             <div class="col-md-6">
                                 <div class="mb-3">
                                     <label>Name</label>
-                                    <input type="text" name="_name" id="_name" class="form-control" />
+                                    <input type="text" name="name" id="name" class="form-control" />
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -84,7 +84,7 @@
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label>Name</label>
-                                        <input type="text" name="_name" id="_name" class="form-control" value="<%= data.name %>" />
+                                        <input type="text" name="name" id="name" class="form-control" value="<%= data.name %>" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -98,13 +98,13 @@
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label>Password</label>
-                                        <input type="text" name="password" id="password" class="form-control" value="<%= data.password %> />
+                                        <input type="text" name="password" id="password" class="form-control" value="<%= data.password %>" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label>Phone</label>
-                                        <input type="text" name="phone" id="phone" class="form-control" value="<%= data.phone %>/>
+                                        <input type="text" name="phone" id="phone" class="form-control" value="<%= data.phone %>"/>
                                     </div>
                                 </div>
                             </div>
@@ -113,13 +113,13 @@
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label for="formFile" class="form-label">Image</label>
-                                        <input class="form-control" type="file" id="formFile" value="<%= data.image %>>
+                                        <input class="form-control" type="file" id="formFile" value="<%= data.image %>"/>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label>Created At</label>
-                                        <input type="datetime-local" name="createdAt" id="createdAt" class="form-control" value="<%= data.createdAt %>/>
+                                        <input type="datetime" name="createdAt" id="createdAt" class="form-control" value="<%= data.createdAt %>"/>
                                     </div>
                                 </div>
                             </div>
